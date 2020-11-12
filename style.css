@@ -1,0 +1,27 @@
+.quiz-container {
+  border: 2px crimson solid;
+  text-align: center;
+  margin: 0 10px;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+fieldset span {
+  display: block;
+}
+
+legend {
+  display: block;
+  text-align: center;
+}
+
+div.correctAnswer {
+  border: 2px green solid;
+}
+
+div.incorrectAnswer {
+  border: 2px red solid;
+}

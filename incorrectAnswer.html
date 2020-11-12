@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Real Estate Quiz</h1>
+  </header>
+  <main>
+  <div class="quiz-container">
+    <form>
+      <legend class="question-count-legend">1/5 questions</legend>
+      <legend class="correct-score-legend">0/5 correct</legend>
+      <fieldset>
+        <legend class="question-legend">Lorem ipsum dolor sit amet</legend>
+        <span><input type="radio" class="first-response"/><label>Lorem ipsum dolor sit amet</label></span>
+        <span><input type="radio" class="second-response"/><label>Lorem ipsum dolor sit amet</label></span>
+        <span><input type="radio" class="third-response"/><label>Lorem ipsum dolor sit amet</label><div class="incorrectAnswer">Lorem ipsum dolor</div></span>
+        <span><input type="radio" class="fourth-response"/><label>Lorem ipsum dolor sit amet</label></span>
+      </fieldset>
+      <button class="nextButton">Next</button>
+    </form>
+    <br>
+    <a href="results.html">Results Page</a>
+    <a href="index.html">Home Page</a>
+  </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
